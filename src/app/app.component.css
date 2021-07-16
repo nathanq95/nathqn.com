@@ -1,10 +1,15 @@
+.nav-bar {
+    position: relative;
+    z-index: 9999;
+}
+
 .profile {
     margin-top: 64px;
     background: gainsboro;
 }
 
 .about {
-    padding: 1px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 hr {

@@ -19,8 +19,11 @@ export class ProjectsComponent implements OnInit {
   getProjects(): void {
     this.projectService.getProjects().subscribe(projects => {
       this.projects = projects;
-      console.log(this.projects)
     })
+  }
+
+  onClick(url: string): void {
+    window.open(url);
   }
  
 }
