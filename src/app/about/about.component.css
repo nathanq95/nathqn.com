@@ -1,0 +1,6 @@
+.about-content {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    z-index: -9999;
+}
