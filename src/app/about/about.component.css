@@ -1,6 +1,5 @@
 #about-content {
     width: 900px;
     margin: auto;
-    position: relative;
-    z-index: -9999;
+    position: inherit;
 }
