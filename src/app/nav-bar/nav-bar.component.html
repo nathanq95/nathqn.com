@@ -1,16 +1,16 @@
 <div>
     <mat-toolbar class="mat-elevation-z8 nav-bar" color="primary">
         <div class="links">
-            <button class="nav-btn" mat-button>Home</button>
-            <button class="nav-btn" mat-button>About</button>
-            <button class="nav-btn" mat-button>Projects</button>
+            <button class="nav-btn" mat-button onclick="document.getElementById('profile').scrollIntoView();">Home</button>
+            <button class="nav-btn" mat-button onclick="document.getElementById('about').scrollIntoView();">About</button>
+            <button class="nav-btn" mat-button onclick="document.getElementById('project-content').scrollIntoView();">Projects</button>
             <a href="https://www.linkedin.com/in/nathan-quiocson/" target="_blank">
                 <button class="nav-btn" mat-button>LinkedIn</button>
             </a>
             <a href="https://github.com/nathanq95" target="_blank">
                 <button class="nav-btn" mat-button>GitHub</button>
             </a>
-            <button class="nav-btn" mat-button>Contact</button>
+            <button class="nav-btn" mat-button onclick="document.getElementById('contact-content').scrollIntoView();">Contact</button>
         </div>
       </mat-toolbar>
 </div>

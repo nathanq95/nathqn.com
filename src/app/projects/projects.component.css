@@ -1,8 +1,7 @@
-.project-content {
+#project-content {
     margin: auto;
     position: inherit;
     width: 900px;
-    height: 1000px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
