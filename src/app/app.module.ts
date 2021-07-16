@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserAnimationsModule,
     MatSliderModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
