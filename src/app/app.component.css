@@ -1,3 +1,7 @@
+.main {
+    
+}
+
 .nav-bar {
     position: relative;
     z-index: 9999;
@@ -8,11 +12,11 @@
 }
 
 #about {
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px 80px 0px;
 }
 
 .contact {
-    padding: 40px 0px 40px 0px;
+    padding: 80px 0px 80px 0px;
 }
 
 hr {
