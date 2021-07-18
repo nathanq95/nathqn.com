@@ -17,6 +17,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { ToolsComponent } from './tools/tools.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './contact/contact.component';
     ProfileComponent,
     ItemCellComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ToolsComponent
   ],
   imports: [
     BrowserModule,
