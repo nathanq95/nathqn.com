@@ -6,6 +6,10 @@
     padding-bottom: 50px;
 }
 
+.tools-icon {
+    padding: 0px 5px 0px 5px;
+}
+
 .tools-card {
     width: 300px;
     height: 150px;
