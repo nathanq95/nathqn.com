@@ -3,3 +3,8 @@
     position: inherit;
     width: 900px;
 }
+
+.email-card {
+    margin: auto;
+    width: fit-content;
+}
