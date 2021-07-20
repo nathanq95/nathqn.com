@@ -18,6 +18,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ToolsComponent } from './tools/tools.component';
+import { MaterialElevationDirective } from './material-elevation.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ToolsComponent } from './tools/tools.component';
     ItemCellComponent,
     ProjectsComponent,
     ContactComponent,
-    ToolsComponent
+    ToolsComponent,
+    MaterialElevationDirective
   ],
   imports: [
     BrowserModule,

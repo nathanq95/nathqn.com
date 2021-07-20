@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  defaultElevation = 5;
+  raisedElevation = 8;
+
   constructor() { }
 
   ngOnInit(): void {

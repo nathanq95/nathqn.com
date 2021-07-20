@@ -10,6 +10,9 @@ export class ProjectsComponent implements OnInit {
 
   projects?: any;
 
+  defaultElevation = 5;
+  raisedElevation = 8;
+
   constructor(private projectService: ProjectService) { }
 
   ngOnInit(): void {

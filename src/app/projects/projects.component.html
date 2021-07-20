@@ -3,7 +3,7 @@
         <mat-card-title>Projects</mat-card-title>
         <mat-grid-list cols="2" rowHeight="2:1">
             <mat-grid-tile *ngFor="let project of projects">
-                <mat-card class="project-card mat-elevation-z5" (click)="onClick(project.html_url)">
+                <mat-card appMaterialElevation class="project-card mat-elevation-z5" (click)="onClick(project.html_url)">
                     <mat-card-content>
                         <h1>{{project.name}}</h1>
                         <p>{{project.description}}</p>
