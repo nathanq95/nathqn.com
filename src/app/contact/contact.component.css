@@ -1,10 +1,14 @@
 #contact-content {
     margin: auto;
     position: inherit;
-    width: 900px;
+    width: 910px;
 }
 
 .email-card {
     margin: auto;
     width: fit-content;
+}
+
+.title {
+    margin-bottom: 20px;
 }
