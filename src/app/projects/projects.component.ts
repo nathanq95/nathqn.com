@@ -11,7 +11,7 @@ export class ProjectsComponent implements OnInit {
   projects?: any;
 
   defaultElevation = 5;
-  raisedElevation = 15;
+  raisedElevation = 24;
 
   constructor(private projectService: ProjectService) { }
 

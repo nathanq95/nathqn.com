@@ -9,7 +9,7 @@ export class MaterialElevationDirective {
   defaultElevation = 2;
 
   @Input()
-  raisedElevation = 8;
+  raisedElevation = 9;
 
   constructor(
     private element: ElementRef,
