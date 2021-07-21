@@ -1,31 +1,59 @@
 <div id="project-content">
-    <mat-card>
-        <mat-card-title>Projects</mat-card-title>
-        <mat-grid-list cols="2" rowHeight="2:1">
-            <mat-grid-tile *ngFor="let project of projects">
-                <mat-card appMaterialElevation class="project-card mat-elevation-z5" (click)="onClick(project.html_url)">
-                    <mat-card-content>
-                        <h1>{{project.name}} (WIP)</h1>
-                        <p>{{project.description}}</p>
-                    </mat-card-content>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card appMaterialElevation class="project-card mat-elevation-z5" (click)="onClick('https://github.com/SDC-ACTION/reviews')">
-                    <mat-card-content>
-                        <h1>reviews</h1>
-                        <p>A microservice that handles and displays the review information on a product page.</p>
-                    </mat-card-content>
-                </mat-card>
-            </mat-grid-tile>
-            <mat-grid-tile>
-                <mat-card appMaterialElevation class="project-card mat-elevation-z5" (click)="onClick('https://github.com/RPT23-Simplicity/inventory')">
-                    <mat-card-content>
-                        <h1>inventory</h1>
-                        <p>A microservice that handles and displays available sizes & styles for every product in the inventory.</p>
-                    </mat-card-content>
-                </mat-card>
-            </mat-grid-tile>
-          </mat-grid-list>   
+    <mat-card class="title">
+      <mat-card-title>Projects</mat-card-title>  
     </mat-card>
+    <mat-grid-list cols="2" rowHeight="2:2">
+        <mat-grid-tile>
+            <mat-card appMaterialElevation class="project-card" (click)="onClick('https://github.com/nathanq95/nathqn.com')">
+                <mat-card-header>
+                  <mat-card-title>nathqn.com</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="https://portfolio-profile-pics.s3.us-west-1.amazonaws.com/Screen+Shot+2021-07-21+at+12.54.58+PM.png">
+                <mat-card-content>
+                  <p>
+                    A portfolio website written using Angular CLI & the Angular Material component library.
+                  </p>
+                </mat-card-content>
+              </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card appMaterialElevation class="project-card" (click)="onClick('https://github.com/nathanq95/bitsy')">
+              <mat-card-header>
+                <mat-card-title>bitsy</mat-card-title>
+              </mat-card-header>
+              <img mat-card-image src="https://portfolio-profile-pics.s3.us-west-1.amazonaws.com/Screen+Shot+2021-07-21+at+1.17.04+PM.png">
+              <mat-card-content>
+                <p>
+                    A web application designed to help users develop habits by breaking them down into smaller, manageable steps.
+                </p>
+              </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card appMaterialElevation class="project-card" (click)="onClick('https://github.com/RPT23-Simplicity/inventory')">
+              <mat-card-header>
+                <mat-card-title>Inventory microservice</mat-card-title>
+              </mat-card-header>
+              <img mat-card-image src="https://portfolio-profile-pics.s3.us-west-1.amazonaws.com/Screen+Shot+2021-07-21+at+2.08.25+PM.png">
+              <mat-card-content>
+                <p>
+                    A microservice that handles and displays available sizes & styles for every product in the inventory.
+                </p>
+              </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-card appMaterialElevation class="project-card" (click)="onClick('https://github.com/SDC-ACTION/reviews')">
+              <mat-card-header>
+                <mat-card-title>Reviews microservice</mat-card-title>
+              </mat-card-header>
+              <img mat-card-image src="https://portfolio-profile-pics.s3.us-west-1.amazonaws.com/Screen+Shot+2021-07-21+at+2.11.44+PM.png">
+              <mat-card-content>
+                <p>
+                    A microservice that handles and displays the review information on a product page.
+                </p>
+              </mat-card-content>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>
