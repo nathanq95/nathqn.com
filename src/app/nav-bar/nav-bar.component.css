@@ -1,3 +1,29 @@
+@media screen and (min-width: 960px) {
+    .nav-bar-m {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width: 959px) {
+    .home {
+        display: none;
+    }
+    
+    .tools {
+        display: none;
+    }
+    
+    .project {
+        display: none;
+    }
+    
+    .contact {
+        display: none;
+    }
+}
+
 .nav-bar {
     background: #3f51b5;
     color: #fff;
