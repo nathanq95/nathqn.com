@@ -1,7 +1,26 @@
+@media screen and (min-width: 960px) {
+    .mobile {
+        display: none;
+    }
+
+    #tools-content {
+        width: 910px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .desktop {
+        display: none;
+    }
+
+    #tools-content {
+        width: 100%;
+    }
+}
+
 #tools-content {
     margin: auto;
     position: inherit;
-    width: 910px;
     padding-top: 80px;
     padding-bottom: 80px;
 }

@@ -9,8 +9,8 @@ img {
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    margin: auto;
-    margin-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
     display: block;
 }
 
@@ -25,8 +25,4 @@ mat-card.mat-card.mat-focus-indicator {
     margin: 145px auto auto -95px;
     float: right;
     position: inherit;
-}
-
-.about {
-    text-align: center;
 }
