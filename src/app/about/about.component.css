@@ -1,13 +1,16 @@
 @media screen and (min-width: 960px) {
     #about-content {
         width: 910px;
-        margin: auto;
-        position: inherit;
     }
 }
 
 @media screen and (max-width: 959px) {
     #about-content {
-        width: fit-content;
+        width: 90%;
     }
+}
+
+#about-content {
+    margin: auto;
+    position: inherit;
 }

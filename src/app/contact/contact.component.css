@@ -1,7 +1,18 @@
+@media screen and (min-width: 960px) {
+    #contact-content {
+        width: 910px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    #contact-content {
+        width: 90%;
+    }
+}
+
 #contact-content {
     margin: auto;
     position: inherit;
-    width: 910px;
 }
 
 .email-card {

@@ -6,6 +6,10 @@
     #tools-content {
         width: 910px;
     }
+
+    .tools-card {
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 959px) {
@@ -14,7 +18,11 @@
     }
 
     #tools-content {
-        width: 100%;
+        width: 90%;
+    }
+
+    .tools-card {
+        width: 90%;
     }
 }
 
@@ -26,11 +34,10 @@
 }
 
 .tools-icon {
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 .tools-card {
-    width: 400px;
     height: 150px;
 }
 

@@ -1,13 +1,38 @@
+@media screen and (min-width: 960px) {
+    .mobile {
+        display: none;
+    }
+
+    #project-content {
+        width: 910px;
+    }
+
+    .project-card {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .desktop {
+        display: none;
+    }
+
+    #project-content {
+        width: 90%;
+    }
+
+    .project-card {
+        max-width: 90%;
+    }
+}
 #project-content {
     margin: auto;
     position: inherit;
-    width: 910px;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
 .project-card {
-    max-width: 400px;
     margin-bottom: 10px;
     cursor: pointer;
 }
