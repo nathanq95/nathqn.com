@@ -1,24 +1,23 @@
 @media screen and (min-width: 960px) {
-    .nav-bar-m {
+    .mobile {
         display: none;
     }
 }
 
 @media screen and (max-width: 959px) {
-    .home {
+    .desktop {
         display: none;
     }
-    
-    .tools {
-        display: none;
+
+    .nav-icon {
+        padding: 10px;
     }
     
-    .project {
-        display: none;
-    }
-    
-    .contact {
-        display: none;
+    .nav-icons {
+        padding-top: 5px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
     }
 }
 
